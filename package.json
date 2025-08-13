@@ -1,4 +1,10 @@
 {
+  "scripts": {
+    "client": "react-scripts start",
+    "dev": "npm run client",
+    "build": "react-scripts build",
+    "start": "react-scripts start"
+  },
   "name": "optimus-website",
   "version": "0.1.0",
   "private": true,
@@ -28,10 +34,7 @@
     "swiper": "^11.2.8",
     "web-vitals": "^2.1.4"
   },
-  "scripts": {
-    "client": "react-scripts start",
-    "dev": "npm run client"
-  },
+
   "eslintConfig": {
     "extends": [
       "react-app",
